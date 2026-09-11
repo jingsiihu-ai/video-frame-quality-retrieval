@@ -10,6 +10,9 @@ The repository turns a practical video-understanding problem into small, testabl
 
 ## Pipeline
 
+<p align="center">
+  <img src="docs/assets/method_overview.png" alt="Video jump-cut detection and multimodal frame retrieval pipeline" width="100%" />
+</p>
 
 ## What is included
 
