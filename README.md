@@ -10,9 +10,6 @@ The repository turns a practical video-understanding problem into small, testabl
 
 ## Pipeline
 
-<p align="center">
-  <img src="docs/assets/method_overview.svg" alt="Video frame quality and multimodal retrieval pipeline with temporal anomaly scoring and MMR selection" width="100%" />
-</p>
 
 ## What is included
 
