@@ -10,17 +10,9 @@ The repository turns a practical video-understanding problem into small, testabl
 
 ## Pipeline
 
-```mermaid
-flowchart LR
-    A[Video frames] --> B[Quality scoring]
-    A --> C[Visual embeddings]
-    D[OCR and ASR] --> E[Multimodal fusion]
-    C --> E
-    E --> F[Temporal anomaly scoring]
-    B --> G[Candidate utility]
-    F --> G
-    G --> H[MMR retrieval]
-```
+<p align="center">
+  <img src="docs/assets/method_overview.svg" alt="Video frame quality and multimodal retrieval pipeline with temporal anomaly scoring and MMR selection" width="100%" />
+</p>
 
 ## What is included
 
