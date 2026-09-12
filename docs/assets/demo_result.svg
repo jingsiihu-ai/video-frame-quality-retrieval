@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="330" viewBox="0 0 1000 330" role="img" aria-labelledby="title desc">
+  <title id="title">Deterministic synthetic frame retrieval result</title>
+  <desc id="desc">Six selected frames, five from query scene two and one diversity selection from scene zero.</desc>
+  <rect width="1000" height="330" rx="22" fill="#0d1117"/>
+  <text x="42" y="54" fill="#f0f6fc" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="25" font-weight="700">Synthetic query retrieval · target scene 2</text>
+  <text x="42" y="86" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16">quality + temporal anomaly + multimodal fusion + MMR</text>
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" text-anchor="middle">
+    <g transform="translate(42 118)"><rect width="135" height="124" rx="14" fill="#1f6feb"/><text x="67" y="46" fill="white" font-size="25">#36</text><text x="67" y="76" fill="#dbeafe" font-size="15">scene 2</text><text x="67" y="103" fill="white" font-size="17">0.845</text></g>
+    <g transform="translate(194 118)"><rect width="135" height="124" rx="14" fill="#8957e5"/><text x="67" y="46" fill="white" font-size="25">#4</text><text x="67" y="76" fill="#ede9fe" font-size="15">scene 0</text><text x="67" y="103" fill="white" font-size="17">0.628</text></g>
+    <g transform="translate(346 118)"><rect width="135" height="124" rx="14" fill="#1f6feb"/><text x="67" y="46" fill="white" font-size="25">#35</text><text x="67" y="76" fill="#dbeafe" font-size="15">scene 2</text><text x="67" y="103" fill="white" font-size="17">0.842</text></g>
+    <g transform="translate(498 118)"><rect width="135" height="124" rx="14" fill="#1f6feb"/><text x="67" y="46" fill="white" font-size="25">#38</text><text x="67" y="76" fill="#dbeafe" font-size="15">scene 2</text><text x="67" y="103" fill="white" font-size="17">0.843</text></g>
+    <g transform="translate(650 118)"><rect width="135" height="124" rx="14" fill="#1f6feb"/><text x="67" y="46" fill="white" font-size="25">#42</text><text x="67" y="76" fill="#dbeafe" font-size="15">scene 2</text><text x="67" y="103" fill="white" font-size="17">0.843</text></g>
+    <g transform="translate(802 118)"><rect width="135" height="124" rx="14" fill="#1f6feb"/><text x="67" y="46" fill="white" font-size="25">#37</text><text x="67" y="76" fill="#dbeafe" font-size="15">scene 2</text><text x="67" y="103" fill="white" font-size="17">0.842</text></g>
+  </g>
+  <circle cx="55" cy="284" r="7" fill="#1f6feb"/><text x="72" y="290" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">query-scene match</text>
+  <circle cx="256" cy="284" r="7" fill="#8957e5"/><text x="273" y="290" fill="#c9d1d9" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15">MMR diversity selection</text>
+  <text x="958" y="290" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="14" text-anchor="end">seed 11 · synthetic arrays</text>
+</svg>
