@@ -8,10 +8,6 @@ A clean-room reference pipeline for selecting useful video frames with image-qua
 
 The repository turns a practical video-understanding problem into small, testable components. It is model-agnostic: callers can supply embeddings from CLIP or another vision-language encoder, OCR text, and ASR segments without coupling the ranking logic to a particular inference stack.
 
-<p align="center">
-  <img src="docs/assets/demo_result.svg" alt="Deterministic synthetic retrieval result with selected frames, scene IDs, and utilities" width="900" />
-</p>
-
 ## Pipeline
 
 <p align="center">
