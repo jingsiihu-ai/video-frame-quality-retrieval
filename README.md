@@ -8,6 +8,10 @@ A clean-room reference pipeline for selecting useful video frames with image-qua
 
 The repository turns a practical video-understanding problem into small, testable components. It is model-agnostic: callers can supply embeddings from CLIP or another vision-language encoder, OCR text, and ASR segments without coupling the ranking logic to a particular inference stack.
 
+<p align="center">
+  <img src="docs/assets/demo_result.svg" alt="Deterministic synthetic retrieval result with selected frames, scene IDs, and utilities" width="900" />
+</p>
+
 ## Pipeline
 
 <p align="center">
@@ -35,6 +39,14 @@ pytest
 
 The demo constructs a synthetic three-scene video, injects visual outliers and degraded frames, then retrieves a compact, diverse set for a target query.
 
+Expected output:
+
+```text
+selected frames: [36, 4, 35, 38, 42, 37]
+scene IDs: [2, 0, 2, 2, 2, 2]
+utilities: [0.845, 0.628, 0.842, 0.843, 0.843, 0.842]
+```
+
 ## Minimal usage
 
 ```python
@@ -55,4 +67,4 @@ selected = rank_frames(
 This is an independent implementation using generic algorithms and synthetic inputs. It contains no employer code, datasets, media, model endpoints, internal parameter values, or confidential evaluation results. The defaults are illustrative and should be tuned only on a documented public validation set.
 
 See [docs/method.md](docs/method.md) for equations, extension points, and references.
-
+See [results.md](results.md) for reproducible demo and CPU benchmark results.
